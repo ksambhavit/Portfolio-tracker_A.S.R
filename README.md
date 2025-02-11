@@ -28,3 +28,7 @@ Sector (e.g., Technology): Technology
 Asset Class (e.g., Stock, Bond, Crypto): Stock
 Quantity: 10
 Purchase Price: 150
+
+Kind Regards,
+Kumar Sambhavit
+ksambhavit@gmail.com

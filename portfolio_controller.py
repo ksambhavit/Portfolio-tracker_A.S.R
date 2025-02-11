@@ -36,13 +36,13 @@ class PortfolioController:
         for ticker, weight in weights.items():
             self.view.display_message(f"{ticker}: {weight*100:.2f}%")
 
-        # Display weights by asset class
+        # Displaying by asset class
         weights_class = self.portfolio.get_weights_by_asset_class()
         self.view.display_message("\nWeights by Asset Class:")
         for asset_class, weight in weights_class.items():
             self.view.display_message(f"{asset_class}: {weight*100:.2f}%")
 
-        # Display weights by sector
+        # Displaying by sector
         weights_sector = self.portfolio.get_weights_by_sector()
         self.view.display_message("\nWeights by Sector:")
         for sector, weight in weights_sector.items():
